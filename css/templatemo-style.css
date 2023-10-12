@@ -50,7 +50,8 @@ body
 	}
 #countdown h2
 	{
-		color: #ff5722;
+	font-size: 50px;
+		color: White;
 		font-weight: 600;
 		padding: 0 0 20px 0
 	}
