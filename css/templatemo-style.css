@@ -8,7 +8,7 @@ https://templatemo.com/tm-435-curvy-soon
 
 body
 	{
-		background: #444444;
+		/*background: #444444;*/
 		font-family: 'Open Sans', sans-serif;
 		font-size: 14px;
 	}
@@ -42,16 +42,16 @@ body
 /* start countdown timer */
 #countdown
 	{
-		background: #212121;
-		border-top-right-radius: 60%;
-		color: #FFFFFF;
+		/*background: #212121;*/
+		/*border-top-right-radius: 60%;*/
+		color: black;
 		min-height: 100vh;
 		padding: 100px 0 80px 0;
 	}
 #countdown h2
 	{
-	font-size: 50px;
-		color: White;
+	font-size: 40px;
+		color: #212121;
 		font-weight: 600;
 		padding: 0 0 20px 0
 	}
@@ -61,10 +61,10 @@ ul.countdown span {
 	display: inline-block;
 }
 ul.countdown li {
-	background: #212121;
-	border: 2px solid #FFFFFF;
+	background: white;
+	border: 2px solid #212121;
 	border-radius: 50%;
-	color: #FFFFFF;
+	color: #212121;
 	width: 80px;
 	height: 80px;
 	line-height: 80px;
@@ -75,9 +75,9 @@ ul.countdown li {
 }
 ul.countdown li:hover
 	{
-		background: #C14000;
+		background: #212121;
 		border: none;
-		color: #FFFFFF;
+		color: #212121;
 		transform: scale(1.2);
 	}
 ul.countdown li h3
@@ -85,6 +85,10 @@ ul.countdown li h3
 		font-weight: 600;
 		font-size: 16px;
 	}
+
+.countdown {
+	padding: 0;
+}
 /* end countdown timer */
 
 /* start divider */

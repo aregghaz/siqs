@@ -23,7 +23,7 @@
 			
 			if(eventDate <= currentDate) {
 				callback.call(this);
-				clearInterval(interval);
+			///	clearInterval(interval);
 			}
 			
 			seconds = eventDate - currentDate;
